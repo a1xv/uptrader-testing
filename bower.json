@@ -1,0 +1,24 @@
+{
+  "name": "testing",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "overrides": {
+    "jquery": {
+        "main": [
+            "./dist/jquery.min.js"
+            ]
+    }
+  }
+ } 
